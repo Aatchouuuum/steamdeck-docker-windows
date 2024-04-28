@@ -56,6 +56,6 @@ This script basically enable and configure pacman, a package manager used by Ste
 4) In the `Username` input, type `docker`
 5) Scroll and find `Resolution`. Here you need to setup a custom resolution. I personnaly use 1280x800 as it's the steamdeck's screen resolution.
    * to add a custom resolution, click the `...` button next to the selector, then click the `+` button and add your custom resolution. Then click `close` and select your freshly created new resolution.
-6) Go to the advance tab and find the `Audio output mode`. Then select `Local`. In the same tab, you can aslo change the `Quality` value depending of your willing.
+6) Go to the advance tab and find the `Audio output mode` and select `Local`. In the same tab, you can aslo change the `Quality` value depending of your willing.
 7) Click save and double click your brand new connection entry.
 8) Use the top bar setting to full screen the display and configure it as you wish.
