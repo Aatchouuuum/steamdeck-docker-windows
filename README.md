@@ -60,5 +60,8 @@ This script basically enable and configure pacman, a package manager used by Ste
 7) Click save and double click your brand new connection entry.
 8) Use the top bar setting to full screen the display and configure it as you wish.
    
+> [!NOTE]
+> To quit the application, simply shutdown windows !
+   
 > [!TIP]
 > To desable the default top menu bar: Start Remmina but insteed of lunching windows, click the option button (the "list" icon), then click `Preferences`, go to `Appearance`, put the `Fullscreen toolbar visibility` to `Off`, then check the 2 first checkboxes and uncheck the third one. 
