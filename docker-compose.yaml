@@ -17,7 +17,7 @@ services:
       - 3389:3389/tcp
       - 3389:3389/udp
     volumes:
-      - /home/deck/win:/storage
-      - /home/deck/steamdeck-docker-windows/tiny11.iso:/storage/custom.iso
+      - ./win:/storage
+      - ./tiny11.iso:/storage/custom.iso
     stop_grace_period: 2m
     restart: no
