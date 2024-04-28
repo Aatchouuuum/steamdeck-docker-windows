@@ -48,9 +48,9 @@ This script basically enable and configure pacman, a package manager used by Ste
 
 7) Now you can configure Remminal in the next section. When it's done, think about rebooting your Steamdeck so all configurations can take place. Have fun !
 
-# How to configure Remminal
+# How to configure Remmina
 
-1) When Remminal open, click the __+__ button in the top left corner.
+1) When Remmina open, click the __+__ button in the top left corner.
 2) Name it `Windows` and choose the protocol `RDP - Remote Desktop Protocol`.
 3) In the `Server` input, type `localhost:3389`
 4) In the `Username` input, type `docker`
@@ -59,3 +59,6 @@ This script basically enable and configure pacman, a package manager used by Ste
 6) Go to the advance tab and find the `Audio output mode` and select `Local`. In the same tab, you can aslo change the `Quality` value depending of your willing.
 7) Click save and double click your brand new connection entry.
 8) Use the top bar setting to full screen the display and configure it as you wish.
+   
+> [!TIP]
+> To desable the default top menu bar: Start Remmina but insteed of lunching windows, click the option button (the "list" icon), then click `Preferences`, go to `Appearance`, put the `Fullscreen toolbar visibility` to `Off`, then check the 2 first checkboxes and uncheck the third one. 
