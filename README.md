@@ -9,7 +9,8 @@ It could run basic desktop apps such as Word, Excel, Firefox, Discord, or other.
 ## How does it run windows ? 
 This project is based on [Dockur - Windows](https://github.com/dockur/windows) which provide you a simple way to run a windows VM with docker through a KVM container. It is really easy to use and have a lot of cool features. If you're a bit handy with linux and docker, please look at their work !
 
-I made choices when I created scripts of this repo, but you could tweek them really easily by simply read the code and adapt it with the Dockur - Windows doc. Have fun !
+> [!TIP]
+> I made choices when I created scripts of this repo, for example I limited the storage to 30GB. But you could tweek them really easily by simply read the code and adapt it with the Dockur - Windows doc. Have fun !
 
 # Install Automatically
 
@@ -45,7 +46,7 @@ This script basically enable and configure pacman, a package manager used by Ste
 
 6) Everything has been installed succesfuly, congrats! Now you can open Steam, go to your Library and click on `Add a game` -> `Add a Non-Steam Game...` in the bottom of the window. A window opens, click `Browse` and navigate to our repository then select the `startWindows.sh` file and click open. Click `Add Selected Programs` and "Ta-da!" your shortcut to run your windows VM is here. You can now find your windows-luncher shortcut, edit it by cliking proprieties, rename it to windows and add the windows logo contained in the repo.
 
-7) Enjoy!
+7) Now you can configure Remminal in the next section. When it's done, think about rebooting your Steamdeck so all configurations can take place. Have fun !
 
 # How to configure Remminal
 
@@ -55,4 +56,6 @@ This script basically enable and configure pacman, a package manager used by Ste
 4) In the `Username` input, type `docker`
 5) Scroll and find `Resolution`. Here you need to setup a custom resolution. I personnaly use 1280x800 as it's the steamdeck's screen resolution.
    * to add a custom resolution, click the `...` button next to the selector, then click the `+` button and add your custom resolution. Then click `close` and select your freshly created new resolution.
-6) Click save and double click your brand new connection entry.
+6) Go to the advance tab and find the `Audio output mode`. Then select `Local`. In the same tab, you can aslo change the `Quality` value depending of your willing.
+7) Click save and double click your brand new connection entry.
+8) Use the top bar setting to full screen the display and configure it as you wish.
