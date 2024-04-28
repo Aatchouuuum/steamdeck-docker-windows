@@ -40,7 +40,7 @@ This script basically enable and configure pacman, a package manager used by Ste
 > You can edit the `docker-compose.yaml` file to choose the windows version you want. <br> I configued the default `win11` as it is the faster to DL, but I would recommand you to use tiny11 for better performances.<br> The line 21 `- ./tiny11.iso:/storage/custom.iso` is here in case github allows me keep the `tiny11.iso` file in this repo but I doubt it. <br>To choose a version, refer to the [Dockur - Windows](https://github.com/dockur/windows#FAQ) doc.
 
 > [!WARNING]  
-> Sometimes, the script crash. You can try to relunch it, if it works : cool! Else try to reboot your Steamdeck and relunch the script. If it still doesn't work, you'll have to read the terminal output and debug it for your personnal case. Don't forget: Keep calm and read the terminal.
+> Sometimes, the script crash. You can try to relunch it, if it works : cool! Else try to reboot your Steamdeck and relunch the script. If it still doesn't work, you'll have to read the terminal output and debug it for your personnal case. Don't forget: Keep calm and read the terminal. <br> Tips: One of the main problem is the add of docker to the usergroup to escape the use of the `sudo` cmd.
 
 5) Once the script has been lunched, a browser pointing to [localhost:8006](http://localhost:8006) should open. This will help you monitor the windows installation process. When it's done, you'll find a classic Windows interface. You can play with it or close the window and go to the next point.
 
