@@ -20,6 +20,9 @@ sudo systemctl enable docker.service
 #INSTALL DOCKER-COMPOSE
 sudo pacman -S docker-compose
 
+#INSTALL REMMINA
+flatpak install flathub org.remmina.Remmina
+
 
 #ADD DOCKER CONFIG
 sudo usermod -aG docker $USER
