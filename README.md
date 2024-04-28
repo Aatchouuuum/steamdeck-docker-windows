@@ -13,6 +13,10 @@ I made choices when I created scripts of this repo, but you could tweek them rea
 
 # Install Automatically
 
+## Before the install 
+
+* You need to setup a admin password for your steamdeck with the `passwd` command. More information [here](https://nomadthecreator.substack.com/p/steam-deck-how-to-set-a-root-password).
+
 ## Clone the repo
 1) First thing first, you need to clone this repo. To do so, use your steamdeck in [desktop mode](https://help.steampowered.com/en/faqs/view/671A-4453-E8D2-323C)
 
@@ -37,8 +41,18 @@ This script basically enable and configure pacman, a package manager used by Ste
 > [!WARNING]  
 > Sometimes, the script crash. You can try to relunch it, if it works : cool! Else try to reboot your Steamdeck and relunch the script. If it still doesn't work, you'll have to read the terminal output and debug it for your personnal case. Don't forget: Keep calm and read the terminal.
 
-5) Everything has been installed succesfuly, congrats! Now you can open Steam, go to your Library and click on `Add a game` -> `Add a Non-Steam Game...` in the bottom of the window. A window opens, click `Browse` and navigate to our repository then select the `startWindows.sh` file and click open. Click `Add Selected Programs` and "Ta-da!" your shortcut to run your windows VM is here.
+5) Once the script has been lunched, a browser pointing to [localhost:8006](http://localhost:8006) should open. This will help you monitor the windows installation process. When it's done, you'll find a classic Windows interface. You can play with it or close the window and go to the next point.
 
-6) Enjoy!
+6) Everything has been installed succesfuly, congrats! Now you can open Steam, go to your Library and click on `Add a game` -> `Add a Non-Steam Game...` in the bottom of the window. A window opens, click `Browse` and navigate to our repository then select the `startWindows.sh` file and click open. Click `Add Selected Programs` and "Ta-da!" your shortcut to run your windows VM is here. You can now find your windows-luncher shortcut, edit it by cliking proprieties, rename it to windows and add the windows logo contained in the repo.
 
-# How to configure Remmina
+7) Enjoy!
+
+# How to configure Remminal
+
+1) When Remminal open, click the __+__ button in the top left corner.
+2) Name it `Windows` and choose the protocol `RDP - Remote Desktop Protocol`.
+3) In the `Server` input, type `localhost:3389`
+4) In the `Username` input, type `docker`
+5) Scroll and find `Resolution`. Here you need to setup a custom resolution. I personnaly use 1280x800 as it's the steamdeck's screen resolution.
+   * to add a custom resolution, click the `...` button next to the selector, then click the `+` button and add your custom resolution. Then click `close` and select your freshly created new resolution.
+6) Click save and double click your brand new connection entry.
