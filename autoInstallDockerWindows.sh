@@ -30,7 +30,7 @@ sudo gpasswd -a $USER docker
 #newgrp docker
 
 #Start image
-docker-compose up -d
+sudo docker-compose up -d
 
 #lunch in browser
 flatpak run io.gitlab.librewolf-community "localhost:8006"
