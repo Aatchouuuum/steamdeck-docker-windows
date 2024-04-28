@@ -44,7 +44,7 @@ This script basically enable and configure pacman, a package manager used by Ste
 
 5) Once the script has been lunched, a browser pointing to [localhost:8006](http://localhost:8006) should open. This will help you monitor the windows installation process. When it's done, you'll find a classic Windows interface. You can play with it or close the window and go to the next point.
 
-6) Everything has been installed succesfuly, congrats! Now you can open Steam, go to your Library and click on `Add a game` -> `Add a Non-Steam Game...` in the bottom of the window. A window opens, click `Browse` and navigate to our repository then select the `startWindows.sh` file and click open. Click `Add Selected Programs` and "Ta-da!" your shortcut to run your windows VM is here. You can now find your windows-luncher shortcut, edit it by cliking proprieties, rename it to windows and add the windows logo contained in the repo.
+6) Everything has been installed succesfuly, congrats! Now you can open Steam, go to your Library and click on `Add a game` -> `Add a Non-Steam Game...` at the bottom of the window. A window opens, click `Browse` and navigate to our repository then select the `startWindows.sh` file and click open. Click `Add Selected Programs` and "Ta-da!" your shortcut to run your windows VM is here. You can now find your windows-luncher shortcut, edit it by cliking proprieties, rename it to windows and add the windows logo contained in the repo.
 
 7) Now you can configure Remminal in the next section. When it's done, think about rebooting your Steamdeck so all configurations can take place. Have fun !
 
